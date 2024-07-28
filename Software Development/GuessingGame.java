@@ -3,9 +3,9 @@ import java.util.Random;
 
 public class GuessingGame {
     public static void main(String[] args) {
-        // Step 1: Randomly select a number between 1 and 10
+        // Step 1: Randomly select a number between 1 and 20
         Random rand = new Random();
-        int numberToGuess = rand.nextInt(10) + 1;
+        int numberToGuess = rand.nextInt(20) + 1;
         int attempts = 5;
 
         Scanner scanner = new Scanner(System.in);
